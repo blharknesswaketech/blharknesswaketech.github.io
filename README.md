@@ -1,1 +1,3 @@
-# blharknesswaketech.github.io
+Brian Harkness, blharkness@my.waketech.edu
+This is my school GitHub account, which I use to store and manage code for coursework related to my A.A.S. in Computer Programming & Development at Wake Tech.
+This repository will hold assignments, exercises, and projects completed for class. It is intended to demonstrate my learning progress and provide a centralized place for my academic code submissions.
