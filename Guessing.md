@@ -2,7 +2,7 @@
 flowchart TD
     Start([Start]) --> GenerateRandom{Generate random number};
     GenerateRandom --> GetUserGuess[Get user's guess];
-    GetUserGuess --> IsValidInput{Is input valid? (numeric, in range)};
+    GetUserGuess --> IsValidInput{Is input valid? numeric, in range};
     IsValidInput -- No --> InformInvalid[Inform user of invalid input] --> GetUserGuess;
     IsValidInput -- Yes --> CompareGuess{Is guess == secret number?};
     CompareGuess -- Yes --> Win([You Win!]);
