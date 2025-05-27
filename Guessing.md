@@ -9,6 +9,7 @@ flowchart TD
     CompareGuess -- No --> CheckHighLow{Is guess > secret number?};
     CheckHighLow -- Yes --> TooHigh[Too high!] --> GetUserGuess;
     CheckHighLow -- No --> TooLow[Too low!] --> GetUserGuess;
+```
 
     ## Flowchart Description
 
